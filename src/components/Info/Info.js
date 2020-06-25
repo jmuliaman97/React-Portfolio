@@ -15,15 +15,15 @@ const Info = () => {
           I am actively seeking employment opportunities.
         </p>
         <p className="contactText">
-          <i id="contactLogo" className="fa fa-envelope"></i>
+          <i id="contactLogo" className='fas fa-map-marker-alt'></i>
           Irvine, CA
         </p>
-        <p  className="contactText">
+        <p className="contactText">
           <i id="contactLogo" className='fas fa-phone'></i>
           (949) 501-2781
         </p>
         <p className="contactText">
-        <i id="contactLogo" className='fas fa-map-marker-alt'></i>
+          <i id="contactLogo" className="fa fa-envelope"></i>
           jordan.muliaman@gmail.com
         </p>
       </div>

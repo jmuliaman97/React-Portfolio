@@ -1,0 +1,29 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  justify-content: center;
+  color: whitesmoke;
+}
+
+.navBrand {
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+.navBrand:hover {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.navLinks {
+  color: whitesmoke;
+  padding-left: 10px;
+}
+
+.navLinks:hover {
+  text-decoration: none;
+  color: whitesmoke;
+}

@@ -13,6 +13,11 @@
   font-size: 150%;
 }
 
+.logo {
+  width: 100px;
+  height: 50px;
+}
+
 .navBrand:hover {
   text-decoration: none;
   color: whitesmoke;

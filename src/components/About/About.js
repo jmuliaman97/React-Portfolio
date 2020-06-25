@@ -2,21 +2,29 @@ import React from 'react'
 import './About.css'
 import {
   Container,
-  Row,
-  Col
+  Button
 } from 'reactstrap'
 
 const About = () => {
   return (
     <Container>
-      <div>
-        <img className="image" src={require('./jordan-muliaman.JPG')} />
-        <h1 className="text">
-          Jordan Benedict Muliaman
-        </h1>
-        <p className="text">
-          Hello! My name is Jordan and I'm an American based full stack web developer specialized in frontend and backend development.
-        </p>
+      <img className="image" src={require('./jordan-muliaman.JPG')} />
+      <h1 className="textTitle">
+        Jordan Benedict Muliaman
+      </h1>
+      <p className="text">
+        Hello! My name is Jordan and I'm an American based full stack web developer specialized in frontend and backend development.
+      </p>
+      <div className="links">
+        <Button className="buttonLink" href="https://github.com/jmuliaman97">
+          <img className="linkImage" src={require('./github.png')} />
+        </Button>
+        <Button className="buttonLink" href="https://www.linkedin.com/in/jordan-muliaman/">
+          <img className="linkImage" src={require('./linkedin.png')} />
+        </Button>
+        <Button className="buttonLink" href={require('./myresume.pdf')}>
+          <img className="linkImage" src={require('./resumelogo.png')} />
+        </Button>
       </div>
     </Container>
   )

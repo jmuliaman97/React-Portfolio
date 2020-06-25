@@ -1,0 +1,21 @@
+.contactTitle {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 130px;
+}
+
+.contactText {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+#contactLogo {
+  font-size: 24px;
+  color: whitesmoke;
+  padding-right: 20px;
+}

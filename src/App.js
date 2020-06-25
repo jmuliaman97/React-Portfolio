@@ -30,7 +30,7 @@ class App extends Component {
         <Navbar className="navbar" color="dark">
           <NavbarBrand>
             <Link to="/" className="navBrand">
-              Jordan Muliaman
+              <img className="logo" src={require('./JM_logowhite.png')} />
             </Link>
           </NavbarBrand>
           <Nav>
@@ -68,15 +68,12 @@ class App extends Component {
           <Col>
             <Navbar className="footer" color="dark">
               <NavbarBrand>
-                © 2020 Copyright
+                Copyright © Jordan Muliaman 2020 
               </NavbarBrand>
             </Navbar>
           </Col>
         </Container>
 
-
-
-      
       </Router>
     )
   }

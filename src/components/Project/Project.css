@@ -1,5 +1,6 @@
 .card {
-  margin-top: 30px;
+  margin-top: 20px;
+  color: whitesmoke;
 }
 
 .cardImage {
@@ -9,4 +10,16 @@
 
 .cardBody {
   text-align: center;
+}
+
+.cardTitle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.cardText {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: whitesmoke;
 }

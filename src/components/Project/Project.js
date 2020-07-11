@@ -19,7 +19,7 @@ const Project = () => {
       <Row>
         <Col xs="6">
           <Card color="dark" className="card">
-            <CardImg className="cardImage" top width="100%" src={require('./pokemon.JPG')} alt="Pokemon Index" />
+            <CardImg className="cardImage" top width="100%" src={require('./images/pokemon.JPG')} alt="Pokemon Index" />
             <CardBody className="cardBody">
               <CardTitle className="cardTitle">Pokémon Index</CardTitle>
               <CardText className="cardText">An application that shows the types, stats, weakness and strengths of the first 151 Pokémon.</CardText>
@@ -29,7 +29,7 @@ const Project = () => {
         </Col>
         <Col xs="6">
           <Card color="dark" className="card">
-            <CardImg className="cardImage" top width="100%" src={require('./burger.JPG')} alt="Burger" />
+            <CardImg className="cardImage" top width="100%" src={require('./images/burger.JPG')} alt="Burger" />
             <CardBody className="cardBody">
               <CardTitle className="cardTitle">Eat Da Burger!</CardTitle>
               <CardText className="cardText">A restaurant app that lets users input the names of burgers they'd like to eat.</CardText>
@@ -41,7 +41,7 @@ const Project = () => {
       <Row>
         <Col xs='6'>
           <Card color="dark" className="card">
-            <CardImg className="cardImage" top width="100%" src={require('./dealtracker.JPG')} alt="Deal Tracker" />
+            <CardImg className="cardImage" top width="100%" src={require('./images/dealtracker.JPG')} alt="Deal Tracker" />
             <CardBody className="cardBody">
               <CardTitle className="cardTitle">Deal Tracker</CardTitle>
               <CardText className="cardText">An app that allows sales executives to create deals and move them through a visual pipeline at each stage in the sales process.</CardText>
@@ -51,7 +51,7 @@ const Project = () => {
         </Col>
         <Col xs='6'>
           <Card color="dark" className="card">
-            <CardImg className="cardImage" top width="100%" src={require('./cache.JPG')} alt="CACHE" />
+            <CardImg className="cardImage" top width="100%" src={require('./images/cache.JPG')} alt="CACHE" />
             <CardBody className="cardBody">
               <CardTitle className="cardTitle">CACHE</CardTitle>
               <CardText className="cardText">An online sales, auction and bartering app. It combines the auction and buy-it-now features of eBay along with the open offer features of Craigslist.</CardText>

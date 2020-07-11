@@ -51,10 +51,10 @@ const Project = () => {
         </Col>
         <Col xs='6'>
           <Card color="dark" className="card">
-            <CardImg className="cardImage" top width="100%" src={require('./comingsoon.JPG')} alt="Burger" />
+            <CardImg className="cardImage" top width="100%" src={require('./cache.JPG')} alt="CACHE" />
             <CardBody className="cardBody">
-              <CardTitle className="cardTitle">Coming soon</CardTitle>
-              <CardText className="cardText">Coming soon</CardText>
+              <CardTitle className="cardTitle">CACHE</CardTitle>
+              <CardText className="cardText">An online sales, auction and bartering app. It combines the auction and buy-it-now features of eBay along with the open offer features of Craigslist.</CardText>
               <Button href="google.com" color="dark">Link to application</Button>
             </CardBody>
           </Card>

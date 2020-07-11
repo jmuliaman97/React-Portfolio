@@ -64,16 +64,6 @@ class App extends Component {
           </Route>
         </Switch>
 
-        <Container>
-          <Col>
-            <Navbar className="footer" color="dark">
-              <NavbarBrand>
-                Copyright © Jordan Muliaman 2020 
-              </NavbarBrand>
-            </Navbar>
-          </Col>
-        </Container>
-
       </Router>
     )
   }

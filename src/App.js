@@ -6,7 +6,6 @@ import {
   BrowserRouter as Router
 } from 'react-router-dom'
 import './App.css'
-import Home from './pages/Home'
 import Portfolio from './pages/Portfolio'
 import Contact from './pages/Contact'
 import {
@@ -18,6 +17,8 @@ import {
   Row, 
   Col
 } from 'reactstrap'
+import About from './components/About'
+import Footer from './components/Footer'
 
 
 class App extends Component {
@@ -30,7 +31,7 @@ class App extends Component {
         <Navbar className="navbar" color="dark">
           <NavbarBrand>
             <Link to="/" className="navBrand">
-              <img className="logo" src={require('./JM_logowhite.png')} />
+              <img className="logo" src={require('./images/JM_logowhite.png')} />
             </Link>
           </NavbarBrand>
           <Nav>
@@ -52,9 +53,14 @@ class App extends Component {
           </Nav>
         </Navbar>
 
+        <div className="app">
+          <About />
+          <Footer />
+        </div>
+
         <Switch>
           <Route exact path="/">
-            <Home />
+            
           </Route>
           <Route path="/portfolio">
             <Portfolio />
